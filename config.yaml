@@ -44,7 +44,7 @@ params:
         icon_class: ''
         new_window: false
         no_follow: false
-      - label: lorem-ipsum
+      - label: CV
         url: '#'
         style: link
         icon_class: dev
