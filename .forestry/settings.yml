@@ -28,6 +28,14 @@ sections:
   templates:
   - page
   - post
+- type: directory
+  path: Content/Posts
+  label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - post
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
