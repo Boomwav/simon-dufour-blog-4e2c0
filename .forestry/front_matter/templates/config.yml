@@ -58,5 +58,33 @@ fields:
       name: include_footer
       label: Footer Configuration
       template: footer
+  - name: cv
+    type: field_group
+    config: {}
+    fields:
+    - name: profile
+      type: field_group
+      config: {}
+      fields:
+      - name: enabled
+        type: boolean
+        label: Enabled
+      - name: name
+        type: text
+        config:
+          required: false
+        label: Name
+      - name: tagline
+        type: text
+        config:
+          required: false
+        label: Tagline
+      - name: avatar
+        type: file
+        config:
+          maxSize: 64
+        label: avatar
+      label: profile
+    label: cv
 pages:
 - config.yaml
