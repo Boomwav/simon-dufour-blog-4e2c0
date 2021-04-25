@@ -12,10 +12,10 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fjord Theme
+      value: Simon Dufour's Blog
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: A blog about programming, gaming and parenting. Or whatever I want.
       keyName: property
     - name: 'og:image'
       value: images/home.jpg
@@ -24,9 +24,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Fjord Theme
+      value: Simon Dufour's Blog
     - name: 'twitter:description'
-      value: The preview of the Fjord theme
+      value: A blog about programming, gaming and parenting. Or whatever I want.
     - name: 'twitter:image'
       value: images/home.jpg
       relativeUrl: true

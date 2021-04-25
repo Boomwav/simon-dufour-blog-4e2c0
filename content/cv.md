@@ -1,6 +1,6 @@
 +++
 img_path = "/images/about.jpg"
-layout = "page"
+layout = "cv"
 subtitle = "Get to know me better"
 title = "CV"
 [seo]
