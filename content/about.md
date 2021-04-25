@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: This is a short page about me and my work
+subtitle: Voici une page à propos de moi.
 img_path: images/about.jpg
 seo:
   type: stackbit_page_meta
