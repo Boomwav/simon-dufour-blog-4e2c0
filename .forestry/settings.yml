@@ -29,11 +29,11 @@ sections:
   - page
   - post
 - type: directory
-  path: Content/Posts
+  path: Content/posts
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - post
 upload_dir: static/images
