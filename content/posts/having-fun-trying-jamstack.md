@@ -19,4 +19,4 @@ type = "stackbit_page_meta"
 +++
 ### This is something new
 
-Being able to write blog posts like this isn't something we could do a couple of years back. Wordpress was the only alternative in town and it was expensive to get hosted. The fact that you can now have a complete blog that is fast, customizable and free is pretty wild.
+Being able to write blog posts like this isn't something we could do a couple of years back. WordPress was the only alternative in town and it was expensive to get hosted. The fact that you can now have a complete blog that is fast, customizable and free is pretty wild.
