@@ -1,0 +1,68 @@
+{{ define "content" }}
+
+  {{ $include_dict := dict "Site" .Site "page" . "image" .Params.img_path }}
+  {{ partial "header.html" $include_dict }}
+
+  <div id="content" class="site-content">
+    <main id="main" class="site-main">
+
+      <article class="post page post-full">
+        <div class="">
+            <article class="mx-auto theme-bg-light">
+    
+                {{ partial "resume_header.html" . }}
+    
+                <hr>
+    
+                {{ if .Site.Params.cv.summary.enable }}
+                {{ partial "resume_summary.html" . }}
+                {{ end }}
+    
+                <hr>
+    
+                <div class="resume-body">
+    
+                    <div class="row">
+    
+                        <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+    
+                            {{ if .Site.Params.cv.experience.enable }}
+                            {{ partial "resume_experience.html" . }}
+                            {{ end }}
+    
+                            {{ if .Site.Params.cv.projects.enable }}
+                            {{ partial "resume_projects.html" . }}
+                            {{ end }}
+    
+                            {{ if .Site.Params.cv.information.enable }}
+                            {{ partial "resume_information.html" . }}
+                            {{ end }}
+    
+                        </div><!--//resume-main-->
+    
+                        {{ partial "resume_sidebar.html" . }}
+    
+                    </div><!--//row-->
+    
+                </div><!--//resume-body-->
+    
+                <hr>
+    
+                {{ if .Site.Params.cv.social.enable }}
+                {{ partial "resume_social.html" . }}
+                {{ end }}
+    
+            </article>
+    
+        </div><!--//container-->
+      </article><!-- .post -->
+
+    </main><!-- .site-main -->
+
+    {{ partial "footer.html" $include_dict }}
+
+  </div><!-- .site-content -->
+
+  {{ partial "resume_scripts.html" . }}
+
+{{ end }}
