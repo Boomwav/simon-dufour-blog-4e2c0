@@ -29,7 +29,7 @@ sections:
   - page
   - post
 - type: directory
-  path: Content/posts
+  path: content/posts
   label: Posts
   create: all
   match: "**/*"
