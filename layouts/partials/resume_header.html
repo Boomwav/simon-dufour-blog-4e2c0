@@ -3,11 +3,11 @@
 
                     <div class="row align-items-center">
 
-                        {{ if .Params.profile.enable }}
+                        {{ if .Params.profile.enabled }}
                         {{ partial "resume_profile.html" . }}
                         {{ end }}
 
-                        {{ if .Params.contact.enable }}
+                        {{ if .Params.contact.enabled }}
                         {{ partial "resume_contact.html" . }}
                         {{ end }}
 

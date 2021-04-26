@@ -94,19 +94,12 @@ params:
       no_follow: false
     - type: action
       template: action
-      label: Contact
-      url: "/contact"
-      style: link
-      icon_class: ''
-      new_window: false
-      no_follow: false
-    - label: CV
+      label: CV
       url: "/cv"
       style: link
       icon_class: dev
       new_window: false
       no_follow: false
-      type: action
     has_social: true
     social_links:
     - type: action
