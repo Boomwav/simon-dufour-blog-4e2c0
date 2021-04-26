@@ -38,7 +38,7 @@ params:
       new_window: false
       no_follow: false
     - label: CV
-      url: "#/CV"
+      url: "/cv"
       style: link
       icon_class: dev
       new_window: false
