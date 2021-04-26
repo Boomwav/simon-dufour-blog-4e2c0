@@ -170,6 +170,34 @@ fields:
       labelField: 
     label: Diploma
   label: Education
+- name: skills
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: categorie
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: skill
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Compétence
+    config:
+      min: 
+      max: 
+      labelField: title
+    label: Categorie
+  label: Compétences
 - type: field_group
   name: seo
   label: seo
