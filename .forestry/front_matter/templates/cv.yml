@@ -1,6 +1,7 @@
 ---
 label: CV
-hide_body: false
+hide_body: true
+display_field: layout
 fields:
 - type: file
   name: img_path
