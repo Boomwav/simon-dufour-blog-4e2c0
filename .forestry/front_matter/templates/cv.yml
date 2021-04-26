@@ -135,7 +135,8 @@ fields:
     label: Job
   label: Experience
 - name: education
-  type: field_group_list
+  type: field_group
+  config: {}
   fields:
   - name: enable
     type: boolean
@@ -151,6 +152,7 @@ fields:
       config:
         required: false
       label: Title
+      description: 'Ex: DEC, Technique en informatique - Profil Gestion'
     - name: school
       type: text
       config:
@@ -161,15 +163,12 @@ fields:
       config:
         required: false
       label: Dates
+      description: 'Ex: 2003-2006'
     config:
       min: 
       max: 
-      labelField: title
+      labelField: 
     label: Diploma
-  config:
-    min: 
-    max: 
-    labelField: 
   label: Education
 - type: field_group
   name: seo
