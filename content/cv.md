@@ -7,6 +7,10 @@ title = "Simon Dufour"
 enable = true
 location = "Montréal, Canada"
 [[contact.list]]
+icon = "fas fa-envelope-square"
+text = "sim.dufour@gmail.com"
+url = "mailto:sim.dufour@gmail.com"
+[[contact.list]]
 icon = "fas fa-phone-square"
 text = "514-466-9186"
 url = "tel:5144669186"
