@@ -15,13 +15,6 @@ sections:
   templates:
   - home
 - type: directory
-  path: content/cv.md
-  label: CV
-  create: all
-  match: "**/*"
-  templates:
-  - cv
-- type: directory
   path: content
   label: Pages
   create: all
