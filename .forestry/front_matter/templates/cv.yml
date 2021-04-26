@@ -46,11 +46,28 @@ fields:
       required: false
     label: Location
   - name: list
-    type: list
+    type: field_group_list
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: Icon
+      description: Icon from Font-Awesome
+    - name: url
+      type: text
+      config:
+        required: false
+      label: Url
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
     config:
-      use_select: false
       min: 
       max: 
+      labelField: 
     label: List
   label: Contact
 - type: field_group
