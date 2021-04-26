@@ -70,6 +70,28 @@ fields:
       labelField: 
     label: List
   label: Contact
+- name: intro
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+  label: Intro
 - type: field_group
   name: seo
   label: seo
@@ -89,27 +111,5 @@ fields:
   - type: text
     name: type
     label: type
-- name: intro
-  type: field_group
-  config: {}
-  fields:
-  - name: enable
-    type: boolean
-    label: Enabled
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Text
-  - name: avatar
-    type: file
-    config:
-      maxSize: 64
-    label: Avatar
-  label: Intro
 pages:
 - content/cv.md
