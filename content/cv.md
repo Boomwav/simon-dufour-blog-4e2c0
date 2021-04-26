@@ -18,6 +18,10 @@ url = "mailto:sim.dufour@gmail.com"
 icon = "fas fa-globe"
 text = "simondufour.dev"
 url = "https://simondufour.dev"
+[intro]
+avatar = "/images/simon-dufour.png"
+enable = true
+text = "J'ai fait le développement d'une variété d'application de gestion. Je m'intéresse principalement au développement d'application Angular et .NET. J'ai adoré travailler en Angular depuis ses tout débuts. C'est une plateforme qui permet des solutions élégante à des problèmes complexes. Ce fût aussi mon introduction à la philosophie de Redux et de la programmation réactive. Ce qui me passionne par-dessus tout, c'est de trouver des façons innovatrice d'offrir à mes clients une application qui répond le mieux possible à leurs besoins en utilisant tous les avantages que les nouvelles technologies nous offrent. J'ai une formation académique en gestion de projet, en assurance qualité, en tests et en maintenance. Je n'hésite pas à utiliser dans la vie de tous les jours afin de faire un travail de qualité et d'offrir à mes collègues une nouvelle perspective."
 [profile]
 enable = true
 name = "Simon Dufour"
