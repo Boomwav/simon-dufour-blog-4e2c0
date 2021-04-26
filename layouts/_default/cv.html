@@ -13,8 +13,8 @@
                 {{ partial "resume_header.html" . }}
     
                 <hr>
-    
-                {{ if .Site.Params.cv.summary.enable }}
+
+                {{ if .Params.intro.enable }}
                 {{ partial "resume_summary.html" . }}
                 {{ end }}
     
