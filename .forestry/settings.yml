@@ -19,6 +19,11 @@ sections:
   label: Contact
   templates:
   - contact
+- type: cv
+  path: content/cv.md
+  label: CV
+  templates:
+  - cv
 - type: directory
   path: content
   label: Pages
