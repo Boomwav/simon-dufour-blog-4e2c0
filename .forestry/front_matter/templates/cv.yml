@@ -134,6 +134,43 @@ fields:
       labelField: 
     label: Job
   label: Experience
+- name: education
+  type: field_group_list
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: diploma
+    type: field_group_list
+    fields:
+    - name: enable
+      type: boolean
+      label: Enabled
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: school
+      type: text
+      config:
+        required: false
+      label: School
+    - name: dates
+      type: text
+      config:
+        required: false
+      label: Dates
+    config:
+      min: 
+      max: 
+      labelField: title
+    label: Diploma
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Education
 - type: field_group
   name: seo
   label: seo
