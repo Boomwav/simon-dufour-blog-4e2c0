@@ -32,7 +32,7 @@ school = "CÉGEP Regional de Lanaudière à Joliette"
 title = "DEC, Technique en informatique - Profil Gestion"
 [[education.diploma]]
 dates = "1998-2003"
-enable = true
+enable = false
 school = "Collège Champagneur"
 title = "DES, Diplôme d'études secondaires"
 [experience]
