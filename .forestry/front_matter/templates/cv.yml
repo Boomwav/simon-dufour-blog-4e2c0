@@ -32,7 +32,7 @@ fields:
     config:
       required: false
     label: Tagline
-  label: profile
+  label: Profile
 - name: contact
   type: field_group
   config: {}
@@ -89,5 +89,22 @@ fields:
   - type: text
     name: type
     label: type
+- name: summary
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  label: Summary
 pages:
 - content/cv.md
