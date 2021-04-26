@@ -19,7 +19,7 @@ icon = "fas fa-globe"
 text = "simondufour.dev"
 url = "https://simondufour.dev"
 [profile]
-enable = false
+enable = true
 enabled = true
 name = "Simon Dufour"
 tagline = "Analyste-Programmeur Senior"
