@@ -48,6 +48,11 @@ fields:
   - name: list
     type: field_group_list
     fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
     - name: icon
       type: text
       config:
@@ -59,11 +64,6 @@ fields:
       config:
         required: false
       label: Url
-    - name: text
-      type: text
-      config:
-        required: false
-      label: Text
     config:
       min: 
       max: 
