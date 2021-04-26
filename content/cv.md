@@ -20,7 +20,6 @@ text = "simondufour.dev"
 url = "https://simondufour.dev"
 [profile]
 enable = true
-enabled = true
 name = "Simon Dufour"
 tagline = "Analyste-Programmeur Senior"
 [seo]
