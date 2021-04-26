@@ -33,3 +33,21 @@ fields:
   - type: text
     name: type
     label: type
+- name: profile
+  type: field_group
+  config: {}
+  fields:
+  - name: enabled
+    type: boolean
+    label: Enabled
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  label: profile
