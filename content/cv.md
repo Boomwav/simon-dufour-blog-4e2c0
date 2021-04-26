@@ -56,6 +56,14 @@ extra = []
 robots = []
 title = ""
 type = "stackbit_page_meta"
+[skills]
+enable = true
+[[skills.categorie]]
+skill = ["Esprit analytique", "Leader", "Joueur d'équipe performant", "Axé sur le client", "Partage de connaissances"]
+title = "Professionnel"
+[[skills.categorie]]
+skill = ["Typescript/Angular/C#", "ASP.NET/NgRx/RxJS", "Node.js/npm", "SQL-Server/Postgres", "Programmation Orienté-Objet et réactive", "Conception et implémentation de bases de données", "Direction et livraison d'applications complexes"]
+title = "Technique"
 
 +++
 # Simon Dufour
