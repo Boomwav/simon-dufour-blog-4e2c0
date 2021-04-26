@@ -1,0 +1,35 @@
+---
+label: CV
+hide_body: false
+fields:
+- type: file
+  name: img_path
+  label: img_path
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: seo
+  label: seo
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: list
+    name: extra
+    label: extra
+  - type: list
+    name: robots
+    label: robots
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: type
+    label: type
