@@ -2,8 +2,16 @@
 img_path = "/images/290104058_1407679190277.jpg"
 layout = "cv"
 subtitle = "Get to know me better"
-title = "CV"
+title = "Simon Dufour"
+[contact]
+enable = true
+location = "Montréal, Canada"
+[[contact.list]]
+icon = "fas fa-phone-square"
+text = "514-466-9186"
+url = "tel:5144669186"
 [profile]
+enable = false
 enabled = true
 name = "Simon Dufour"
 tagline = "Analyste-Programmeur Senior"
