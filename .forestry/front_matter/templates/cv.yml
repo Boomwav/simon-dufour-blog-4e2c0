@@ -92,6 +92,48 @@ fields:
       maxSize: 64
     label: Avatar
   label: Intro
+- name: experience
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: job
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Job title
+      description: 'Ex: Développeur Front-end Senior'
+    - name: dates
+      type: text
+      config:
+        required: false
+      label: Dates
+      description: 'Ex: Nov 2019 - Aujourd''hui'
+    - name: company
+      type: text
+      config:
+        required: false
+      label: Company name
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Job
+  label: Experience
 - type: field_group
   name: seo
   label: seo
