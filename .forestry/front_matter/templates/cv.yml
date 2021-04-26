@@ -89,7 +89,7 @@ fields:
   - type: text
     name: type
     label: type
-- name: summary
+- name: intro
   type: field_group
   config: {}
   fields:
@@ -105,6 +105,11 @@ fields:
       schema:
         format: markdown
     label: Text
-  label: Summary
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+  label: Intro
 pages:
 - content/cv.md
