@@ -18,6 +18,13 @@ url = "mailto:sim.dufour@gmail.com"
 icon = "fas fa-globe"
 text = "simondufour.dev"
 url = "https://simondufour.dev"
+[experience]
+enable = true
+[[experience.job]]
+company = "Desjardins"
+dates = "Nov 2019 - Aujourd'hui"
+description = "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs.\n\n* Développement d'applications avec Angular 4-11.\n* Gestion de l'état avec NgRx\n* Programmation réactive avec RxJs\n* Implémentation de Oauth2 et Auth0\n* Tests unitaires Jasmine\n* Support d'applications en production\n* SourceTree, Jira, Scrum, SonarQube"
+title = "Développeur Front-end Senior"
 [intro]
 avatar = "/images/simon-dufour.png"
 enable = true
