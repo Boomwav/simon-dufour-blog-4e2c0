@@ -19,7 +19,7 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: enabled
+  - name: enable
     type: boolean
     label: Enabled
   - name: name
@@ -33,6 +33,26 @@ fields:
       required: false
     label: Tagline
   label: profile
+- name: contact
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: location
+    type: text
+    config:
+      required: false
+    label: Location
+  - name: list
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: List
+  label: Contact
 - type: field_group
   name: seo
   label: seo
