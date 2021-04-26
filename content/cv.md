@@ -6,7 +6,7 @@ title = "CV"
 [profile]
 enabled = true
 name = "Simon Dufour"
-tagline = "I am legend"
+tagline = "Analyste-Programmeur Senior"
 [seo]
 description = ""
 extra = []
