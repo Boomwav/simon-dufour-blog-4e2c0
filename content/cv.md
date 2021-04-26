@@ -1,5 +1,5 @@
 +++
-img_path = "/images/about.jpg"
+img_path = "/images/290104058_1407679190277.jpg"
 layout = "cv"
 subtitle = "Get to know me better"
 title = "CV"
