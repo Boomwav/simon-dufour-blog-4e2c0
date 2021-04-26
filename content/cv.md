@@ -21,11 +21,6 @@ url = "https://simondufour.dev"
 [education]
 enable = true
 [[education.diploma]]
-dates = "1998-2003"
-enable = true
-school = "Collège Champagneur"
-title = "DES, Diplôme d'études secondaires"
-[[education.diploma]]
 dates = "2006-2010"
 enable = true
 school = "École de Technologie supérieure"
@@ -35,6 +30,11 @@ dates = "2003-2006"
 enable = true
 school = "CÉGEP Regional de Lanaudière à Joliette"
 title = "DEC, Technique en informatique - Profil Gestion"
+[[education.diploma]]
+dates = "1998-2003"
+enable = true
+school = "Collège Champagneur"
+title = "DES, Diplôme d'études secondaires"
 [experience]
 enable = true
 [[experience.job]]
