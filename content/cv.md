@@ -52,6 +52,11 @@ company = "CGI"
 dates = "Oct 2016 - Sep 2017"
 description = "Développement Front-End de SPA publique et privé en Angular.\n\n* Développement d’une application web en Angular à ses tout début.\n* Développement de preuves de concepts afin de déterminer ce qui était possible.\n* Utilisation de plusieurs technologies comme Angular 2+, GIT, GIT-Flow, SASS, CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack.\n* Git, Jira, Scrum"
 title = "Consultant"
+[[experience.job]]
+company = "SNC-Lavalin"
+dates = "Avr 2010 - Mai 2016"
+description = "Développement d’applications web avec ASP.NET MVC et Webform dans l’équipe de Nouveaux Développements. Mon rôle était principalement de développer et maintenir les différents modules de leur application intranet de gestion de projet. J’ai participé activement dans la transition d’un cycle de vie en cascade jusqu’à l’utilisation du cadre de travail Scrum. J’ai animé plusieurs rencontre et j’ai remplacé notre Scrum Master à plusieurs occasions. Mon expertise avec Scrum m’a permis de devenir une référence sur le sujet dans ma division.\n\n* C#, ASP.NET, Javascript, HTML5 et CSS3\n* Librairies comme Bootstrap, TypeScript, JQuery, Telerik UI, Kendo UI, Underscore.JS, et plusieurs autres.\n* Services Web XML, WCF, OData and REST\n* Développement à l’aide de bases de données SQL-Serveur et T-SQL"
+title = "Analyste-programmeur"
 [interests]
 enable = true
 interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
