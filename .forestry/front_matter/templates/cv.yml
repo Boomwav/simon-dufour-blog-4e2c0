@@ -198,6 +198,21 @@ fields:
       labelField: title
     label: Categorie
   label: Compétences
+- name: langues
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enabled
+  - name: langue
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Langue
+  label: Langues
 - type: field_group
   name: seo
   label: seo
