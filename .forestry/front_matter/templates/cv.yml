@@ -228,6 +228,37 @@ fields:
       max: 
     label: Interest
   label: Interests
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: social_link
+    type: field_group_list
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: icon
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    - name: url
+      type: text
+      config:
+        required: false
+      label: url
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Social Link
+  label: Social
 - type: field_group
   name: seo
   label: seo
