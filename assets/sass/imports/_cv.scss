@@ -1,0 +1,28 @@
+.cv {
+  a {
+      display: inline-block;
+      color: #4f4f4f;
+      text-decoration: none;
+      border-bottom: none;
+      transition: transform ease 0.5s, color ease-in-out 0.5s;;
+
+      &:hover {
+        color: #007599;
+        text-decoration: none;
+        transform: translate(5px, 0px);
+      }
+  }
+
+  .resume-social-list {
+    a {
+      color: #4f4f4f;
+      transition: transform ease 0.5s, color ease-in-out 0.5s;
+      
+      &:hover {
+        color: #007599;
+        text-decoration: none;
+        transform: translate(0px, 5px);
+      }
+    }
+  }
+}

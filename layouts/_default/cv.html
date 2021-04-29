@@ -3,7 +3,7 @@
   {{ $include_dict := dict "Site" .Site "page" . "image" .Params.img_path }}
   {{ partial "header.html" $include_dict }}
 
-  <div id="content" class="site-content">
+  <div id="content" class="site-content cv">
     <main id="main" class="site-main">
 
       <article class="post page post-full">
@@ -48,7 +48,7 @@
     
                 <hr>
     
-                {{ if .Site.Params.cv.social.enable }}
+                {{ if .Params.social.enable }}
                 {{ partial "resume_social.html" . }}
                 {{ end }}
     
