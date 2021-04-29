@@ -95,6 +95,24 @@ title = "Technique"
 [[skills.categorie]]
 skill = ["Esprit analytique", "Leader", "Joueur d'équipe performant", "Axé sur le client", "Partage de connaissances"]
 title = "Professionnel"
+[social]
+enable = true
+[[social.social_link]]
+icon = "fab fa-github-square"
+text = "BoomWav"
+url = "https://github.com/Boomwav"
+[[social.social_link]]
+icon = ""
+text = ""
+url = ""
+[[social.social_link]]
+icon = ""
+text = ""
+url = ""
+[[social.social_link]]
+icon = ""
+text = ""
+url = ""
 
 +++
 # Simon Dufour
