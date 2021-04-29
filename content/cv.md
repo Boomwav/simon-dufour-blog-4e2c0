@@ -102,9 +102,9 @@ icon = "fab fa-github-square"
 text = "BoomWav"
 url = "https://github.com/Boomwav"
 [[social.social_link]]
-icon = ""
-text = ""
-url = ""
+icon = "fab fa-linkedin"
+text = "simdufour"
+url = "https://www.linkedin.com/in/simdufour/"
 [[social.social_link]]
 icon = ""
 text = ""
