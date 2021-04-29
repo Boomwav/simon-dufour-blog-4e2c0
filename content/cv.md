@@ -106,9 +106,9 @@ icon = "fab fa-linkedin"
 text = "simdufour"
 url = "https://www.linkedin.com/in/simdufour/"
 [[social.social_link]]
-icon = ""
-text = ""
-url = ""
+icon = "fab fa-twitter-square"
+text = "@simdufour"
+url = "https://twitter.com/simdufour"
 [[social.social_link]]
 icon = ""
 text = ""
