@@ -42,6 +42,11 @@ company = "Desjardins"
 dates = "Nov 2019 - Aujourd'hui"
 description = "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs.\n\n* Développement d'applications avec Angular 4-11.\n* Gestion de l'état avec NgRx\n* Programmation réactive avec RxJs\n* Implémentation de Oauth2 et Auth0\n* Tests unitaires Jasmine\n* Support d'applications en production\n* SourceTree, Jira, Scrum, SonarQube"
 title = "Développeur Front-end Senior"
+[[experience.job]]
+company = "CGI "
+dates = "Oct 2017 - Nov 2019"
+description = "Support d’applications web intranet\n\n* ASP.NET 3.5 et ASP.NET Core\n* Entity Framework\n* SQL-Server 2014 et SQL-Developer\n* EmberJs, GitKraken, Jira, Scrum"
+title = "Consultant"
 [interests]
 enable = true
 interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
