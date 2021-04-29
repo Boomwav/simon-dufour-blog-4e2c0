@@ -62,6 +62,11 @@ company = "SNC-Lavalin"
 dates = "Mai 2008 - Avr 2010"
 description = "J’ai développer et fait la maintenance des outils de gestion de projets de SNC-Lavalin. J’ai construit des systèmes en ASP.NET 2.0 et utilisant une base de données SQL-Serveur. Mes connaissances en HTML, CSS et Javascript ont été très utiles à moi et à mes collègues. Dans un second projet, j’ai utiliser les services offerts par Sharepoint afin de développer et faire la maintenance d’un système complexe de feuille de temps en Javascript."
 title = "Étudiant - Programmeur .NET"
+[[experience.job]]
+company = "Connexion-Lanaudière"
+dates = "Mai 2007 - Mai 2008"
+description = "Développement de page Web pour des entreprises extérieures. Les maquettes des pages était habituellement faites par des graphistes à l’externe. Nous devions transformer la maquette, qui était en Adobe Photoshop ou Adobe Illustrator, et la transformer en page Web fonctionnelle. Les pages devaient respecter la norme XHTML 1.1. Durant mon mandat, j’ai travaillé avec HTML 4.0, CSS 2.0, JSP, JQuery, MooTool. Les outils que j’ai utilisés étaient Dreamweaver et Photoshop CS2."
+title = "Développeur Web"
 [interests]
 enable = true
 interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
