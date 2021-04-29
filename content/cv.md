@@ -1,8 +1,8 @@
 +++
+title = "Simon Dufour"
 img_path = "/images/290104058_1407679190277.jpg"
 layout = "cv"
 subtitle = "Get to know me better"
-title = "Simon Dufour"
 [contact]
 enable = true
 location = "Montréal, Canada"

@@ -96,12 +96,6 @@ params:
     links: []
   domain: https://simon-dufour-blog-4e2c0.netlify.app
   favicon: ''
-  cv:
-    profile:
-      enabled: true
-      name: Test Simon
-      tagline: ''
-      avatar: ''
 taxonomies:
   stub: stub
 disableKinds:
