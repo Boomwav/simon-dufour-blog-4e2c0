@@ -110,9 +110,9 @@ icon = "fab fa-twitter-square"
 text = "@simdufour"
 url = "https://twitter.com/simdufour"
 [[social.social_link]]
-icon = ""
-text = ""
-url = ""
+icon = "fab fa-steam-square"
+text = "BoomWav"
+url = "https://steamcommunity.com/id/boomwav/"
 
 +++
 # Simon Dufour
