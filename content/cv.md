@@ -42,6 +42,9 @@ company = "Desjardins"
 dates = "Nov 2019 - Aujourd'hui"
 description = "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs.\n\n* Développement d'applications avec Angular 4-11.\n* Gestion de l'état avec NgRx\n* Programmation réactive avec RxJs\n* Implémentation de Oauth2 et Auth0\n* Tests unitaires Jasmine\n* Support d'applications en production\n* SourceTree, Jira, Scrum, SonarQube"
 title = "Développeur Front-end Senior"
+[interests]
+enable = true
+interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
 [intro]
 avatar = "/images/simon-dufour.png"
 enable = true
