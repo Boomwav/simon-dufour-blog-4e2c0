@@ -57,6 +57,11 @@ company = "SNC-Lavalin"
 dates = "Avr 2010 - Mai 2016"
 description = "Développement d’applications web avec ASP.NET MVC et Webform dans l’équipe de Nouveaux Développements. Mon rôle était principalement de développer et maintenir les différents modules de leur application intranet de gestion de projet. J’ai participé activement dans la transition d’un cycle de vie en cascade jusqu’à l’utilisation du cadre de travail Scrum. J’ai animé plusieurs rencontre et j’ai remplacé notre Scrum Master à plusieurs occasions. Mon expertise avec Scrum m’a permis de devenir une référence sur le sujet dans ma division.\n\n* C#, ASP.NET, Javascript, HTML5 et CSS3\n* Librairies comme Bootstrap, TypeScript, JQuery, Telerik UI, Kendo UI, Underscore.JS, et plusieurs autres.\n* Services Web XML, WCF, OData and REST\n* Développement à l’aide de bases de données SQL-Serveur et T-SQL"
 title = "Analyste-programmeur"
+[[experience.job]]
+company = "SNC-Lavalin"
+dates = "Mai 2008 - Avr 2010"
+description = "J’ai développer et fait la maintenance des outils de gestion de projets de SNC-Lavalin. J’ai construit des systèmes en ASP.NET 2.0 et utilisant une base de données SQL-Serveur. Mes connaissances en HTML, CSS et Javascript ont été très utiles à moi et à mes collègues. Dans un second projet, j’ai utiliser les services offerts par Sharepoint afin de développer et faire la maintenance d’un système complexe de feuille de temps en Javascript."
+title = "Étudiant - Programmeur .NET"
 [interests]
 enable = true
 interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
