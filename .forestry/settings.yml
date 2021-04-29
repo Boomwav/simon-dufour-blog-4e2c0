@@ -23,7 +23,6 @@ sections:
   templates:
   - page
   - post
-  - cv
 - type: directory
   path: content/posts
   label: Posts
