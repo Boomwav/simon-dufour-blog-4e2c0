@@ -213,6 +213,21 @@ fields:
       max: 
     label: Langue
   label: Langues
+- name: interests
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enabled
+  - name: interest
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Interest
+  label: Interests
 - type: field_group
   name: seo
   label: seo
