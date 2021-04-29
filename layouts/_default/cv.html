@@ -3,7 +3,7 @@
   {{ $include_dict := dict "Site" .Site "page" . "image" .Params.img_path }}
   {{ partial "header.html" $include_dict }}
 
-  <div id="content" class="site-content">
+  <div id="content" class="site-content cv">
     <main id="main" class="site-main">
 
       <article class="post page post-full">
@@ -13,8 +13,8 @@
                 {{ partial "resume_header.html" . }}
     
                 <hr>
-    
-                {{ if .Site.Params.cv.summary.enable }}
+
+                {{ if .Params.intro.enable }}
                 {{ partial "resume_summary.html" . }}
                 {{ end }}
     
@@ -26,7 +26,7 @@
     
                         <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
     
-                            {{ if .Site.Params.cv.experience.enable }}
+                            {{ if .Params.experience.enable }}
                             {{ partial "resume_experience.html" . }}
                             {{ end }}
     
@@ -48,7 +48,7 @@
     
                 <hr>
     
-                {{ if .Site.Params.cv.social.enable }}
+                {{ if .Params.social.enable }}
                 {{ partial "resume_social.html" . }}
                 {{ end }}
     

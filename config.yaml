@@ -1,62 +1,7 @@
-title: Simon Dufour Blog
-baseURL: /
+---
+title: Simon Dufour's Blog
+baseURL: "/"
 params:
-  cv:
-    profile:
-      enable: true
-      name: 'Simon Dufour'
-      tagline: 'Analyste-Programmeur Senior'
-      avatar: 'simon-dufour.png'
-    contact:
-      enable: true
-      location: 'Montréal, Canada'
-      list:
-        - icon: "fas fa-phone-square"
-          url: "tel:5144669186"
-          text: "514-466-9186"
-        - icon: "fas fa-envelope-square"
-          url: "mailto:sim.dufour@gmail.com"
-          text: "sim.dufour@gmail.com"
-        - icon: "fas fa-globe"
-          url: "https://simondufour.dev"
-          text: "simondufour.dev"
-    summary:
-      enable: true
-      text: >-
-        J'ai fait le développement d'une variété d'application de gestion. Je m'intéresse principalement au 
-        développement d'application Angular et .NET. J'ai adoré travailler en Angular depuis ses tout débuts. C'est 
-        une plateforme qui permet des solutions élégante à des problèmes complexes. Ce fût aussi mon introduction à la 
-        philosophie de Redux et de la programmation réactive. Ce qui me passionne par-dessus tout, c'est de trouver des 
-        façons innovatrice d'offrir à mes clients une application qui répond le mieux possible à leurs besoins en utilisant 
-        tous les avantages que les nouvelles technologies nous offrent. J'ai une formation académique en gestion de projet, 
-        en assurance qualité, en tests et en maintenance. Je n'hésite pas à utiliser dans la vie de tous les jours afin de 
-        faire un travail de qualité et d'offrir à mes collègues une nouvelle perspective.
-    
-    experience:
-      enable: true
-      list:
-        - title: "Développeur Front-end Senior"
-          dates: "Nov 2019 - Aujourd'hui"
-          company: "Desjardins"
-          details: "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs."
-          items: 
-            - details: "Développement d'applications avec Angular 4-11."
-            - details: "Gestion de l'état avec NgRx"
-            - details: "Programmation réactive avec RxJs"
-            - details: "Implémentation de Oauth2 et Auth0"
-            - details: "Tests unitaires Jasmine"
-            - details: "Support d'applications en production"
-            - details: "SourceTree, Jira, Scrum, SonarQube"
-
-
-  author: 'Simon Dufour'
-  description: 'Développeur Senior, Angular, C#, Asp.NET'
-  primaryColor: '#007599'
-  textPrimaryColor: '#292929'
-
-  contact:
-    enable: true
-    location: 'Montréal, Canada'
   palette: yellow
   header:
     type: header
@@ -92,16 +37,8 @@ params:
       icon_class: ''
       new_window: false
       no_follow: false
-    - type: action
-      template: action
-      label: Contact
-      url: "/contact"
-      style: link
-      icon_class: ''
-      new_window: false
-      no_follow: false
     - label: CV
-      url: "           /cv"
+      url: "/cv"
       style: link
       icon_class: dev
       new_window: false
@@ -159,12 +96,6 @@ params:
     links: []
   domain: https://simon-dufour-blog-4e2c0.netlify.app
   favicon: ''
-  cv:
-    profile:
-      enabled: false
-      name: Test Simon
-      tagline: ''
-      avatar: ''
 taxonomies:
   stub: stub
 disableKinds:

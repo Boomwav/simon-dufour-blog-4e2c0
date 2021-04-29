@@ -2,23 +2,23 @@
                         <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
 
 
-                            {{ if .Site.Params.education.enable }}
+                            {{ if .Params.education.enable }}
                             {{ partial "resume_education.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.awards.enable }}
+                            {{ if .Params.awards.enable }}
                             {{ partial "resume_awards.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.skills.enable }}
+                            {{ if .Params.skills.enable }}
                             {{ partial "resume_skills.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.languages.enable }}
+                            {{ if .Params.langues.enable }}
                             {{ partial "resume_languages.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.interests.enable }}
+                            {{ if .Params.interests.enable }}
                             {{ partial "resume_interests.html" . }}
                             {{ end }}
 

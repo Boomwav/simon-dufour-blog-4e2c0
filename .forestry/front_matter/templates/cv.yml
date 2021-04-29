@@ -1,0 +1,282 @@
+---
+label: CV
+hide_body: true
+display_field: layout
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: img_path
+  label: img_path
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: subtitle
+  label: subtitle
+- name: profile
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: tagline
+    type: text
+    config:
+      required: false
+    label: Tagline
+  label: Profile
+- name: contact
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: location
+    type: text
+    config:
+      required: false
+    label: Location
+  - name: list
+    type: field_group_list
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: Icon
+      description: Icon from Font-Awesome
+    - name: url
+      type: text
+      config:
+        required: false
+      label: Url
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: List
+  label: Contact
+- name: intro
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+  label: Intro
+- name: experience
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: job
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Job title
+      description: 'Ex: Développeur Front-end Senior'
+    - name: dates
+      type: text
+      config:
+        required: false
+      label: Dates
+      description: 'Ex: Nov 2019 - Aujourd''hui'
+    - name: company
+      type: text
+      config:
+        required: false
+      label: Company name
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Job
+  label: Experience
+- name: education
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: diploma
+    type: field_group_list
+    fields:
+    - name: enable
+      type: boolean
+      label: Enabled
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+      description: 'Ex: DEC, Technique en informatique - Profil Gestion'
+    - name: school
+      type: text
+      config:
+        required: false
+      label: School
+    - name: dates
+      type: text
+      config:
+        required: false
+      label: Dates
+      description: 'Ex: 2003-2006'
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Diploma
+  label: Education
+- name: skills
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: categorie
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: skill
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Compétence
+    config:
+      min: 
+      max: 
+      labelField: title
+    label: Categorie
+  label: Compétences
+- name: langues
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enabled
+  - name: langue
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Langue
+  label: Langues
+- name: interests
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enabled
+  - name: interest
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Interest
+  label: Interests
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Enabled
+  - name: social_link
+    type: field_group_list
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: icon
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    - name: url
+      type: text
+      config:
+        required: false
+      label: url
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Social Link
+  label: Social
+- type: field_group
+  name: seo
+  label: seo
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: list
+    name: extra
+    label: extra
+  - type: list
+    name: robots
+    label: robots
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: type
+    label: type
+pages:
+- content/cv.md
