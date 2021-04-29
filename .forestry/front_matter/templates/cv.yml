@@ -3,6 +3,9 @@ label: CV
 hide_body: true
 display_field: layout
 fields:
+- type: text
+  name: title
+  label: title
 - type: file
   name: img_path
   label: img_path
@@ -12,9 +15,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: title
-  label: title
 - name: profile
   type: field_group
   config: {}
