@@ -47,6 +47,11 @@ company = "CGI "
 dates = "Oct 2017 - Nov 2019"
 description = "Support d’applications web intranet\n\n* ASP.NET 3.5 et ASP.NET Core\n* Entity Framework\n* SQL-Server 2014 et SQL-Developer\n* EmberJs, GitKraken, Jira, Scrum"
 title = "Consultant"
+[[experience.job]]
+company = "CGI"
+dates = "Oct 2016 - Sep 2017"
+description = "Développement Front-End de SPA publique et privé en Angular.\n\n* Développement d’une application web en Angular à ses tout début.\n* Développement de preuves de concepts afin de déterminer ce qui était possible.\n* Utilisation de plusieurs technologies comme Angular 2+, GIT, GIT-Flow, SASS, CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack.\n* Git, Jira, Scrum"
+title = "Consultant"
 [interests]
 enable = true
 interest = ["Jeux-vidéos", "Musique électronique", " Internet", " Politique", " Généalogie"]
